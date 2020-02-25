@@ -7,3 +7,6 @@ url = "http://localhost:3000"
 
 #get user
 puts RestClient.get(url+"/users")
+
+# post Requests
+puts RestClient.post(url+"/users", '')
